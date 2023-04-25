@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" />
+    <script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+</head>
+<body>
+<div>
+    <tr>
+        <div align = "left" >
+            <h3><a  th:href="@{'/room'}">book room</a></h3>
+        </div>
+    </tr>
+    <tr>
+
+        <div class="col-sm-5" align = "center">
+            <div class="panel-body" align = "center" >
+                <table class="table">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>PhoneNo</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr  th:each="admin : ${admindetails}">
+                        <td th:text="${admin.name}">Name</td>
+                        <td th:text="${admin.email}">Email</td>
+                        <td th:text="${admin.phoneno}">PhoneNo</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <table class="table">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>RoomNo</th>
+                        <th>Price</th>
+                        <th>Guest</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr  th:each="room : ${roomlist}">
+                        <td th:text="${room.no}">RoomNo</td>
+                        <td th:text="${room.price}">Price</td>
+                        <td th:text="${room.guest}">Guest</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+    </tr>
+
+    </tbody>
+    </table>
+    <div>
+</body>
+</html>
