@@ -1,9 +1,18 @@
-#DBMS Project based on hotel maangement application
+# Hotel Management Application
+The Hotel Management Application is a digital assistant for hotels, streamlining tasks for both staff and guests. It simplifies booking rooms, dining arrangements, and more, enhancing the overall hotel experience.
 
-The Hotel Management Application is like a digital assistant for hotels, making things easier for both the staff and guests. For guests, it simplifies booking rooms and dining arrangements. For hotel staff, it helps manage resources and guest information effectively.
+## Features
+- **Guest Services**: Simplifies booking rooms and dining arrangements.
+- **Staff Utilities**: Assists hotel staff in managing resources and guest information effectively.
 
-This application is built by using different technologies: HTML, CSS, and JavaScript to make it look nice and work smoothly for users. Java to handle the behind-the-scenes work, like processing bookings and managing data. And MySQL is used to store and organize all the information.
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Java for processing bookings and managing data
+- **Database**: MySQL for storing and organizing information
 
-Overall, it's a handy tool that makes the hotel experience better for everyone involved.
+## Overview
+
+This application is built using a combination of modern web technologies to ensure a smooth and user-friendly experience. It handles behind-the-scenes tasks efficiently, making the hotel experience better for everyone involved.
+
 
 
